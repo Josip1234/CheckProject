@@ -1,0 +1,1 @@
+CREATE TABLE `checkproject`.`start_project` ( `id` INT NOT NULL AUTO_INCREMENT , `project_name` VARCHAR(255) NOT NULL , `date_of_creation` DATE NOT NULL , `estimated_time` INT NOT NULL , PRIMARY KEY (`id`), UNIQUE (`project_name`)) ENGINE = InnoDB CHARSET=utf8 COLLATE utf8_croatian_ci;
