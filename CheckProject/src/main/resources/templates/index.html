@@ -7,5 +7,25 @@ xmlns:th="http://www.thymeleaf.org">
   </head>
   <body>
 <h1>Homepage</h1>
+
+
+<div class="regContainer">
+  <h2>Register:</h2>
+  <form class="register" action="index.html" method="post">
+      <input type="text" name="username" placeholder="Email as username:">
+      <input type="password" name="password" placeholder="Enter your password:">
+      <input type="password" name="password2" placeholder="Re-type your password:">
+      <input type="submit" value="Register">
+  </form>
+
+</div>
+<div class="loginContainer">
+  <h2>Sign in</h2>
+  <form class="login" action="index.html" method="post">
+    <input type="text" name="username" placeholder="Enter your username:">
+    <input type="password" name="password" placeholder="Enter your password:">
+    <input type="submit" value="Sign in">
+  </form>
+</div>
   </body>
 </html>
